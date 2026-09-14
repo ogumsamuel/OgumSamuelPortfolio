@@ -1,75 +1,225 @@
-# React + TypeScript + Vite
+Ogum Samuel — Software Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <strong>Building modern web and mobile applications with React, React Native, JavaScript, TypeScript, and backend technologies.</strong>
+</p>
+<p align="center">
+  <a href="https://github.com/ogumsamuel">GitHub</a> •
+  <a href="https://www.linkedin.com/in/ogumsamuel/">LinkedIn</a> •
+  <a href="mailto:ogumsamuel12@gmail.com">Email</a> •
+  <a href="https://wa.me/2348149418622">WhatsApp</a>
+</p>
 
-Currently, two official plugins are available:
+⸻
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+About Me
 
-## React Compiler
+I am Ogum Samuel Boniface, a Software Developer focused on building modern, practical, and user-friendly digital experiences.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I work across web and mobile development, using technologies such as JavaScript, TypeScript, React, React Native, Expo, Firebase, Firestore, Supabase, and REST APIs.
 
-## Expanding the ESLint configuration
+I enjoy turning ideas into functional applications, solving real-world problems through technology, and continuously improving my development skills through hands-on projects.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+⸻
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Portfolio
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+This repository contains my personal developer portfolio, created to showcase my skills, projects, experience, and development journey.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The portfolio highlights projects I have built across fashion technology, fintech, and mobile application development.
 
-```
+Portfolio Features
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+* Responsive personal portfolio website
+* About section
+* Developer skills section
+* Featured projects
+* Project GitHub links
+* Downloadable CV
+* Contact section
+* GitHub, LinkedIn, Email, Phone, and WhatsApp links
+* Responsive design for desktop and mobile devices
+* Smooth animations and modern UI
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+⸻
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Featured Projects
 
-```
+👗 StyleIQ
+
+AI-powered fashion shopping mobile application
+
+StyleIQ is a fashion-focused mobile application designed to help users discover fashion products, manage their style preferences, save products, create outfits, and manage their shopping experience.
+
+Tech Stack
+
+* React Native
+* Expo
+* TypeScript
+* Firebase Authentication
+* Firestore
+* Supabase Storage
+* Expo Router
+
+Key Features
+
+* User authentication
+* Product discovery
+* Fashion categories
+* Style preferences
+* Personalized product recommendations
+* Wishlist
+* Cart
+* Orders
+* Payment integration
+* Cash on Delivery
+* User profile
+* Admin dashboard
+
+Repository:
+https://github.com/ogumsamuel/StyleIQ
+
+⸻
+
+💰 CashPilot
+
+Personal finance management mobile application
+
+CashPilot is a modern financial mobile application designed to provide users with a simple digital experience for managing their finances.
+
+Tech Stack
+
+* React Native
+* Expo
+* TypeScript
+* Firebase
+* Firestore
+
+Key Features
+
+* Financial dashboard
+* Income management
+* Expense management
+* Transfers
+* Activity tracking
+* Budgets
+* Financial goals
+* Settings
+* Light and dark mode
+
+Repository:
+https://github.com/ogumsamuel/CashPilot
+
+⸻
+
+👕 SD Fashion
+
+Fashion shopping mobile application
+
+SD Fashion is a mobile application project focused on creating a modern digital fashion shopping experience.
+
+Tech Stack
+
+* React Native
+* Expo
+* TypeScript
+
+Repository:
+https://github.com/ogumsamuel/SDFashion
+
+⸻
+
+Skills & Technologies
+
+Languages
+
+* JavaScript
+* TypeScript
+* Java
+
+Frontend
+
+* React
+* React Native
+* Expo
+* HTML
+* CSS
+* Responsive Design
+
+Backend & Database
+
+* Firebase
+* Firebase Authentication
+* Firestore
+* Supabase
+* REST APIs
+
+Tools
+
+* Git
+* GitHub
+* VS Code
+* npm
+* Expo CLI
+
+⸻
+
+Development Approach
+
+I focus on building applications that are:
+
+* Practical — designed around real user problems
+* Responsive — usable across different screen sizes
+* Maintainable — structured with reusable components and clear code
+* Scalable — built with technologies and architectures that can grow
+* User-focused — designed with usability and experience in mind
+
+⸻
+
+Portfolio Technologies
+
+This portfolio was built with:
+
+* React
+* TypeScript
+* Vite
+* Framer Motion
+* Lucide React
+* CSS
+
+⸻
+
+Contact
+
+I am open to opportunities, collaborations, freelance projects, and conversations with other developers and technology professionals.
+
+Email:
+ogumsamuel12@gmail.com
+
+GitHub:
+https://github.com/ogumsamuel
+
+LinkedIn:
+https://www.linkedin.com/in/ogumsamuel/
+
+WhatsApp:
+https://wa.me/2348149418622
+
+Phone:
++234 814 941 8622
+
+⸻
+
+Portfolio Repository
+
+GitHub:
+https://github.com/ogumsamuel/OgumSamuelPortfolio
+
+⸻
+
+<p align="center">
+  Built with React, TypeScript, and Vite.
+</p>
+<p align="center">
+  © Ogum Samuel Boniface
+</p>
