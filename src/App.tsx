@@ -67,9 +67,24 @@ const projects = [
     featured: false,
     link: 'https://github.com/ogumsamuel/SDFashion',
   },
+  {
+    title: 'GILGAL LAND CONSTRUCTION LIMITED',
+    category: 'Construction & Engineering',
+    description:
+      'A professional company website built for GILGAL LAND CONSTRUCTION LIMITED to showcase its services, projects, team, safety standards, and provide clients with a way to request quotes.',
+    technologies: [
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'Supabase',
+    ],
+    featured: false,
+    link: 'https://github.com/ogumsamuel/ConstructionSite',
+  },
 ]
 
 const skills = [
+   "Java",
   'JavaScript',
   'TypeScript',
   'React',
@@ -82,6 +97,7 @@ const skills = [
   'GitHub',
   'REST APIs',
   'Responsive Design',
+   "Next.js",
 ]
 
 function App() {
@@ -352,6 +368,11 @@ function App() {
                     {project.title === 'SD Fashion' && (
                       <span className="project-letter">SD</span>
                     )}
+                    
+                    {project.title === 'GILGAL LAND CONSTRUCTION LIMITED' && (
+  <span className="project-letter">GL</span>
+)}
+
                   </div>
 
                   <span className="project-number">
@@ -532,6 +553,43 @@ function App() {
 
                 <ArrowUpRight size={18} />
               </a>
+
+              
+              {/* X */}
+              <a
+                href="https://x.com/ogum_samuel?s=11"
+                target="_blank"
+                rel="noreferrer"
+                className="contact-link"
+              >
+                <span className="brand-icon">X</span>
+
+                <span>
+                  <small>X</small>
+                  X.com/ogumsamuel
+                </span>
+
+                <ArrowUpRight size={18} />
+              </a>
+              
+              
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/ogumsamuel12?stkn=MWRxZ2F5Y2oxd2M4Mg%3D%3D&utm_source=qr"
+                target="_blank"
+                rel="noreferrer"
+                className="contact-link"
+              >
+                <span className="brand-icon">◎</span>
+
+                <span>
+                  <small>Instagram</small>
+                  instagram.com/ogumsamuel
+                </span>
+
+                <ArrowUpRight size={18} />
+              </a>
+              
             </div>
           </div>
         </section>
